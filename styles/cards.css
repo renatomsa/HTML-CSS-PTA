@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+    height: 100%;
+    width: 100%;
+}
+
+.cards {
+    width: 1212px;
+    height: 100%;
+    display: flex;
+    padding-top: 279px;
+    padding-bottom: 77.98px;
+    margin: 0 auto;
+}
+
+.box1,
+.box3 {
+    width: 318px;
+    height: 512px;
+    background-color: #FFF;
+    border-radius: 16px;
+    padding: 24px;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+.box2,
+.box4 {
+    width: 240px;
+    height: 512px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box2 {
+    margin-right: 32px;
+}
+
+.intern-box1,
+.intern-box2,
+.intern-box3,
+.intern-box4 {
+    width: 240px;
+    height: 240px;
+    background-color: #FFF;
+    border-radius: 16px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.title-box1,
+.title-box2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 31px;
+}
+
+.description-box1,
+.description-box2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-box1,
+.price-box2 {
+    font-size: 24px;
+    margin-top: 31px;
+    width: 105px;
+    height: 45px;
+    background-color: rgba(249, 199, 191, 0.6);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 1270px) {
+    .cards {
+        width: 840px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        order: -3;
+        margin-bottom: 32px;
+        margin-left: 118px;
+    }
+
+    .box2 {
+        order: -2;
+        margin-bottom: 32px;
+    }
+
+    .box4 {
+        order: -1;
+        margin-right: 32px;
+        margin-left: 118px;
+    }
+}
+
+@media (max-width: 840px) {
+    .cards {
+        width: 326.32px;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        order: -3;
+        width: 175.71px;
+        height: 283px;
+        padding: 13px;
+        margin: 0;
+        margin-bottom: 18px;
+        margin-right: 18px;
+    }
+
+    .box2 {
+        order: -2;
+        height: 283px;
+        width: 132.61px;
+        margin: 0;
+        margin-bottom: 18px;
+    }
+
+    .box4 {
+        order: -1;
+        height: 283px;
+        width: 132.61px;
+        margin: 0;
+        margin-right: 18px;
+    }
+
+    .box3 {
+        width: 175.71px;
+        height: 283px;
+        padding: 13px;
+        margin: 0;
+    }
+
+    .tablito-img,
+    .chicabon-img {
+        width: 149.19px;
+    }
+
+    .title-box1,
+    .title-box2 {
+        font-size: 17.68px;
+        margin-top: 17px;
+    }
+
+    .description-box1,
+    .description-box2 {
+        font-size: 8.84px;
+    }
+
+    .price-box1,
+    .price-box2 {
+        font-size: 13.26px;
+        width: 57.84px;
+        height: 24.84px;
+        margin-top: 17px;
+    }
+
+    .intern-box1,
+    .intern-box2,
+    .intern-box3,
+    .intern-box4 {
+        width: 132.61px;
+        height: 132.66px;
+        padding: 13.26px;
+    }
+
+    .brigadeiro-img,
+    .kolorix-img,
+    .kibonbon-img,
+    .minions-img {
+        width: 106.09px;
+    }
+}
